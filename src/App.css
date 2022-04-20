@@ -1,0 +1,17 @@
+
+.App {
+  background: rgb(244, 248, 251);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Noto Sans KR',sans-serif;
+}
+
+.AppGlass {
+  display: grid;
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+  grid-template-columns: 11rem auto 20rem;
+}
